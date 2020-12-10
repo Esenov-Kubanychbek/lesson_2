@@ -37,3 +37,14 @@ a:hover{
 a:active{
     border-bottom: 3px solid hsl(0, 0%, 58%);  
 }
+@media(max-width: 615px){
+    nav ul{
+        display: flex;
+
+        flex-direction: column;
+    }
+    nav ul div{
+        display: flex;
+        justify-content: center;
+    }
+}
