@@ -1,9 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #212529;
 }
 ul{
     margin: 0 auto;
     margin-top: 15px;
+}
+nav{
+    margin-top: 20px;
 }
 nav ul  {
     display: flex;
@@ -22,13 +28,14 @@ nav ul li{
 nav ul li a{
     text-decoration: none;  
 }
+
 nav ul div:nth-child(2) li a{
     margin: 0 15px;
     font-size: 20px;
     color: white;
 }
 #li1{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
 }
 a:hover{
@@ -68,17 +75,26 @@ main div{
     text-align: center;
     
 }
-button{
-    text-align: center;
+#div2{
+    max-width: 650px;
     display: flex;
-    width: 100px;
-   
+     
+    align-items: center; 
 }
+
 main div div a{
     list-style-type: none;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 8px 16px;
     background-color: rgb(246, 246, 246);
-    margin: 0 250px;
+    color: black;
     border-radius: 5px;
+    max-width: 200px;
+}
+main div p{
+    margin-top: -20px;
+    font-size: 1.25rem;
+}
+main div h2{
+    font-size: calc(1.375rem + 1.5vw);
 }
