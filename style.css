@@ -9,7 +9,7 @@ nav ul  {
     display: flex;
     justify-content: space-between;
     
-    max-width: 672px;
+    max-width: 650px;
 }
 nav ul div:nth-child(2){
     display: flex;
@@ -24,7 +24,7 @@ nav ul li a{
 }
 nav ul div:nth-child(2) li a{
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 #li1{
@@ -37,6 +37,14 @@ a:hover{
 a:active{
     border-bottom: 3px solid hsl(0, 0%, 58%);  
 }
+header{
+    padding-bottom: 150px;
+}
+#div2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 @media(max-width: 615px){
     nav ul{
         display: flex;
@@ -47,4 +55,30 @@ a:active{
         display: flex;
         justify-content: center;
     }
+}
+main{
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 23px;
+    color: white;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+button{
+    text-align: center;
+    display: flex;
+    width: 100px;
+   
+}
+main div div a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(246, 246, 246);
+    margin: 0 250px;
+    border-radius: 5px;
 }
