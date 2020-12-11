@@ -38,10 +38,10 @@ nav ul div:nth-child(2) li a{
     font-size: 30px;
     color: white;
 }
-a:hover{
+nav ul div:nth-child(2) li a:hover{
     border-bottom: 3px solid white;
 }
-a:active{
+nav ul div:nth-child(2) li a:hover{
     border-bottom: 3px solid hsl(0, 0%, 58%);  
 }
 header{
@@ -67,7 +67,7 @@ main{
     max-width: 650px;
     margin: 0 auto;
     font-size: 23px;
-    color: white;
+    color: hsl(0, 0%, 90%);
 }
 main div{
     display: flex;
@@ -97,4 +97,14 @@ main div p{
 }
 main div h2{
     font-size: calc(1.375rem + 1.5vw);
+}
+
+footer p {
+    color: rgb(209, 209, 209);
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 145px;
+}
+footer p a{
+    color: white;
 }
